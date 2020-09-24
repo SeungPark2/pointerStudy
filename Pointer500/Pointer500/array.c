@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+void array() {
     
     // Int array
     
@@ -19,8 +19,8 @@ int main(int argc, const char * argv[]) {
         
         p = &x[i];
         
-//        printf("address p:%x " "address x: %x \n", &p, &x[i]);
-//        printf("p: %d \n", *p);
+        printf("address p:%x " "address x: %x \n", &p, &x[i]);
+        printf("p: %d \n", *p);
     }
     
 //  ----------------------------------------------------------------------------
@@ -30,8 +30,8 @@ int main(int argc, const char * argv[]) {
     
     for (i = 0; i <= 2; i++) {
         
-//        printf("address p:%x " "address x: %x \n", &p, &x[i]);
-//        printf("p: %d \n", *p);
+        printf("address p:%x " "address x: %x \n", &p, &x[i]);
+        printf("p: %d \n", *p);
         p++; // 주소 값을 가지고 있는 p에 ++ 해주게 되면 주소가 바뀌게 된다. ex) fff0 -> fff4
     }
     
@@ -40,25 +40,25 @@ int main(int argc, const char * argv[]) {
     int x1[10] = {11, 22, 43, 56, 36, 73, 45, 66, 98, 0};
     int *px;
     
-//    for (px = x1; *px != 0; px++)
-//        printf("px: %d \n", *px);
+    for (px = x1; *px != 0; px++)
+        printf("px: %d \n", *px);
     
 //  ----------------------------------------------------------------------------
     
     int *px2 = x1;
     
-//    for (px2 = x1; *px2 != 0; px2++)
-//        printf("px2: %d \n", *px2);
+    for (px2 = x1; *px2 != 0; px2++)
+        printf("px2: %d \n", *px2);
     
 //  ----------------------------------------------------------------------------
     
     int x2[10] = {4, 6, 2, 8, 5, 1, 9, 3, 7, 0};
     int *px3 = x2;
     
-//    printf("*(p+2): %d \n", *(px3+2)); // px3 == &x2[0] 이므로 px3+2 == &x2[2] -> 2
-//    printf("*p+2: %d \n", *px3+2); // *px3 ==> 4 이므로 +2를 하면 6
-//    printf("*(p+5): %d \n", *(px3+5)); // *px3 == &x2[0] 이므로 px3+5 == &x2[5] -> 1
-//    printf("*p+5: %d \n", *px3+5); // *px3 ==> 4 이므로 +5를 하면 9
+    printf("*(p+2): %d \n", *(px3+2)); // px3 == &x2[0] 이므로 px3+2 == &x2[2] -> 2
+    printf("*p+2: %d \n", *px3+2); // *px3 ==> 4 이므로 +2를 하면 6
+    printf("*(p+5): %d \n", *(px3+5)); // *px3 == &x2[0] 이므로 px3+5 == &x2[5] -> 1
+    printf("*p+5: %d \n", *px3+5); // *px3 ==> 4 이므로 +5를 하면 9
     
 //  ----------------------------------------------------------------------------
     
@@ -74,7 +74,7 @@ int main(int argc, const char * argv[]) {
         px4[0]++;
         px4[1]++;
         
-        //printf("z: %d \n", z[i]);
+        printf("z: %d \n", z[i]);
     }
     
 //  ----------------------------------------------------------------------------
@@ -85,7 +85,7 @@ int main(int argc, const char * argv[]) {
     
     while (*px5 != *px6) {
         
-//        printf("px5: %d px6: %d \n", *px5, *px6);
+        printf("px5: %d px6: %d \n", *px5, *px6);
         px5++;
     }
     
@@ -113,8 +113,8 @@ int main(int argc, const char * argv[]) {
         
         pf = &f[i];
         
-//        printf("address p1: %x " "address f: %x \n", &pf, &f[i]);
-//        printf("pf: %f \n", *pf);
+        printf("address p1: %x " "address f: %x \n", &pf, &f[i]);
+        printf("pf: %f \n", *pf);
     }
     
 //  ----------------------------------------------------------------------------
@@ -128,8 +128,8 @@ int main(int argc, const char * argv[]) {
         
         pd = &d[i];
         
-//        printf("address pd: %x " "address d: %x \n", &pd, &d[i]);
-//        printf("pd: %f \n", *pd);
+        printf("address pd: %x " "address d: %x \n", &pd, &d[i]);
+        printf("pd: %f \n", *pd);
     }
     
 //  ----------------------------------------------------------------------------
@@ -143,8 +143,8 @@ int main(int argc, const char * argv[]) {
         
         pc = &c[i];
         
-//        printf("address pc: %x " "address c: %x \n", &pc, &c[i]);
-//        printf("pc: %c \n", *pc);
+        printf("address pc: %x " "address c: %x \n", &pc, &c[i]);
+        printf("pc: %c \n", *pc);
     }
     
 //  ----------------------------------------------------------------------------
@@ -153,8 +153,8 @@ int main(int argc, const char * argv[]) {
     
     for (i = 0; i <= 2; i++) {
         
-//        printf("address pc: %x " "address c: %x \n", &pc, &c[i]);
-//        printf("pc: %c \n", *pc);
+        printf("address pc: %x " "address c: %x \n", &pc, &c[i]);
+        printf("pc: %c \n", *pc);
         pc++;
     }
     
@@ -163,10 +163,10 @@ int main(int argc, const char * argv[]) {
     char c1[10] = {'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e'};
     char *pc2 = c1;
     
-//    printf("*(p+2): %c \n", *(pc2+2)); // pc2 == &c1[0], pc2+2 == &c1[2] -> 'B'
-//    printf("*p+2: %c \n", *pc2+2);     // pc2 == 'A', pc2+2 == 'C'
-//    printf("*(p+5): %c \n", *(pc2+5)); // pc2 == &c1[0]. pc2+5 == &c1[5] -> 'c'
-//    printf("*p+5: %c \n" , *pc2+5);     // pc2 == 'A', pc2+5 == 'F'
+    printf("*(p+2): %c \n", *(pc2+2)); // pc2 == &c1[0], pc2+2 == &c1[2] -> 'B'
+    printf("*p+2: %c \n", *pc2+2);     // pc2 == 'A', pc2+2 == 'C'
+    printf("*(p+5): %c \n", *(pc2+5)); // pc2 == &c1[0]. pc2+5 == &c1[5] -> 'c'
+    printf("*p+5: %c \n" , *pc2+5);     // pc2 == 'A', pc2+5 == 'F'
     
 //  ----------------------------------------------------------------------------
     
@@ -176,9 +176,7 @@ int main(int argc, const char * argv[]) {
     
     for (i = 0; i <= 9; i++){
         
-//        printf("c2: %c \n", *q);
-//        q++;
+        printf("c2: %c \n", *q);
+        q++;
     }
-    
-    return 0;
 }

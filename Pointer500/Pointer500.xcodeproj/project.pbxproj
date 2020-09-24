@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0126864B2518C64A003EE2AE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0126864A2518C64A003EE2AE /* main.c */; };
-		01268654251A154E003EE2AE /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = 01268653251A154E003EE2AE /* array.c */; };
-		01268656251A193D003EE2AE /* twoArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 01268655251A193D003EE2AE /* twoArray.c */; };
-		01ED9B1F251B6D31007852DA /* File.c in Sources */ = {isa = PBXBuildFile; fileRef = 01ED9B1E251B6D31007852DA /* File.c */; };
+		01D0FF59251CAECA001485EF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0126864A2518C64A003EE2AE /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +27,8 @@
 		0126864A2518C64A003EE2AE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		01268653251A154E003EE2AE /* array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
 		01268655251A193D003EE2AE /* twoArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = twoArray.c; sourceTree = "<group>"; };
+		01D0FF56251CAB5B001485EF /* basic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = basic.c; sourceTree = "<group>"; };
+		01D0FF60251CAF60001485EF /* Problem_24-30.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Problem_24-30.c"; sourceTree = "<group>"; };
 		01ED9B1E251B6D31007852DA /* File.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = File.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,9 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				0126864A2518C64A003EE2AE /* main.c */,
+				01D0FF56251CAB5B001485EF /* basic.c */,
 				01268653251A154E003EE2AE /* array.c */,
 				01268655251A193D003EE2AE /* twoArray.c */,
 				01ED9B1E251B6D31007852DA /* File.c */,
+				01D0FF60251CAF60001485EF /* Problem_24-30.c */,
 			);
 			path = Pointer500;
 			sourceTree = "<group>";
@@ -128,10 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0126864B2518C64A003EE2AE /* main.c in Sources */,
-				01268654251A154E003EE2AE /* array.c in Sources */,
-				01268656251A193D003EE2AE /* twoArray.c in Sources */,
-				01ED9B1F251B6D31007852DA /* File.c in Sources */,
+				01D0FF59251CAECA001485EF /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
