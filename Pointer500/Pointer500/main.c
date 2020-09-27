@@ -14,13 +14,11 @@
 #include "Problem_24-30.c"
 #include "Probelm31_ExerciseProblem8.c"
 #include "ExerciseProblem9_20.c"
+#include "ExerciseProblem21_29.c"
 
 int main(int argc, const char * argv[]) {
     
-//    basic();
-//    array();
-//    Problem24_30();
-    ExerciseProblem9_20();
+    ExerciseProblem21_29();
         
     return 0;
 }
