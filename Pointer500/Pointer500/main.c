@@ -16,10 +16,11 @@
 #include "Chapter1/ExerciseProblem21_29.c"
 
 #include "Chapter2/Probelm2_1_19.c"
+#include "Chapter2/ExerciseProblem1_19.c"
 
 int main(int argc, const char * argv[]) {
     
-    Probelm2_1_19();
+    ExerciseProblem1_19();
 
     return 0;
 }
