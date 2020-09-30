@@ -18,9 +18,11 @@
 #include "Chapter2/Probelm2_1_19.c"
 #include "Chapter2/ExerciseProblem1_19.c"
 
+#include "Chapter3/Problem1_10.c"
+
 int main(int argc, const char * argv[]) {
     
-    ExerciseProblem1_19();
+    Problem1_10();
 
     return 0;
 }
