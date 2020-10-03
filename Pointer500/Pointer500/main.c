@@ -22,9 +22,11 @@
 #include "Chapter3/Problem11_17.c"
 #include "Chapter3/ExerciseProblem1_18.c"
 
+#include "Chapter4/Problem1_10.c"
+
 int main(int argc, const char * argv[]) {
     
-    ExerciseProblem1_18();
+    Problem1_10__2();
 
     return 0;
 }
