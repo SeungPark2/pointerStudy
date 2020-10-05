@@ -33,6 +33,7 @@
 		014D35C12526C6BA0035B42C /* ExerciseProblem1_18.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ExerciseProblem1_18.c; sourceTree = "<group>"; };
 		014D35C6252880580035B42C /* Problem1_10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem1_10.c; sourceTree = "<group>"; };
 		014D35CD2529E45F0035B42C /* Problem11_20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem11_20.c; sourceTree = "<group>"; };
+		016553F8252B3B460049BF6E /* Problem21_30.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem21_30.c; sourceTree = "<group>"; };
 		01663F252521F7D100C40A11 /* Probelm2_1_19.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Probelm2_1_19.c; sourceTree = "<group>"; };
 		01874DBB251E03A8001B5BC2 /* Probelm31_ExerciseProblem8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Probelm31_ExerciseProblem8.c; sourceTree = "<group>"; };
 		01874DBD251EB51F001B5BC2 /* ExerciseProblem9_20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ExerciseProblem9_20.c; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 			children = (
 				014D35C6252880580035B42C /* Problem1_10.c */,
 				014D35CD2529E45F0035B42C /* Problem11_20.c */,
+				016553F8252B3B460049BF6E /* Problem21_30.c */,
 			);
 			path = Chapter4;
 			sourceTree = "<group>";
