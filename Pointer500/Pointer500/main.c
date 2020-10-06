@@ -25,10 +25,11 @@
 #include "Chapter4/Problem1_10.c"
 #include "Chapter4/Problem11_20.c"
 #include "Chapter4/Problem21_30.c"
+#include "Chapter4/Problem31_40.c"
 
 int main(int argc, const char * argv[]) {
     
-    Problem21_30();
+    Problem31_40();
 
     return 0;
 }

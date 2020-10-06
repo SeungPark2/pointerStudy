@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		011FFE07252C8492006A635E /* Problem31_40.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem31_40.c; sourceTree = "<group>"; };
 		012686472518C64A003EE2AE /* Pointer500 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pointer500; sourceTree = BUILT_PRODUCTS_DIR; };
 		0126864A2518C64A003EE2AE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		01268653251A154E003EE2AE /* array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 				014D35C6252880580035B42C /* Problem1_10.c */,
 				014D35CD2529E45F0035B42C /* Problem11_20.c */,
 				016553F8252B3B460049BF6E /* Problem21_30.c */,
+				011FFE07252C8492006A635E /* Problem31_40.c */,
 			);
 			path = Chapter4;
 			sourceTree = "<group>";
