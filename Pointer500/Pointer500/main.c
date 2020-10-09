@@ -28,10 +28,11 @@
 #include "Chapter4/Problem31_40.c"
 #include "Chapter4/Problem41_EP10.c"
 #include "Chapter4/EP11_20.c"
+#include "Chapter4/EP21_30.c"
 
 int main(int argc, const char * argv[]) {
     
-    EP11_20();
+    EP21_30();
 
     return 0;
 }
