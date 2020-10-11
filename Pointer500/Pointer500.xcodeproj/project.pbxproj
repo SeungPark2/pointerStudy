@@ -40,6 +40,7 @@
 		014D35CD2529E45F0035B42C /* Problem11_20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem11_20.c; sourceTree = "<group>"; };
 		016553F8252B3B460049BF6E /* Problem21_30.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem21_30.c; sourceTree = "<group>"; };
 		01663F252521F7D100C40A11 /* Probelm2_1_19.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Probelm2_1_19.c; sourceTree = "<group>"; };
+		0184DBD0253296A300C677BD /* Problem1_10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem1_10.c; sourceTree = "<group>"; };
 		01874DBB251E03A8001B5BC2 /* Probelm31_ExerciseProblem8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Probelm31_ExerciseProblem8.c; sourceTree = "<group>"; };
 		01874DBD251EB51F001B5BC2 /* ExerciseProblem9_20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ExerciseProblem9_20.c; sourceTree = "<group>"; };
 		01874DBF2520A70B001B5BC2 /* ExerciseProblem21_29.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ExerciseProblem21_29.c; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0126864A2518C64A003EE2AE /* main.c */,
+				0184DBCE2532966A00C677BD /* Chapter5 */,
 				01663F282521F7E200C40A11 /* Chapter1 */,
 				01663F292521F7EE00C40A11 /* Chapter2 */,
 				014D35B72524B0A40035B42C /* Chapter3 */,
@@ -134,6 +136,14 @@
 				014D35AF252341430035B42C /* ExerciseProblem1_19.c */,
 			);
 			path = Chapter2;
+			sourceTree = "<group>";
+		};
+		0184DBCE2532966A00C677BD /* Chapter5 */ = {
+			isa = PBXGroup;
+			children = (
+				0184DBD0253296A300C677BD /* Problem1_10.c */,
+			);
+			path = Chapter5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

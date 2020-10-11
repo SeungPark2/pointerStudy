@@ -31,9 +31,12 @@
 #include "Chapter4/EP21_30.c"
 #include "Chapter4/EP31_40.c"
 
+#include "Chapter5/Problem1_10.c"
+
+
 int main(int argc, const char * argv[]) {
     
-    EP31_40();
+    Problem1_10();
 
     return 0;
 }
