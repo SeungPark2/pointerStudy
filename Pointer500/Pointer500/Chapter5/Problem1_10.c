@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-void Problem1_10() {
+void Problem1_10_2() {
     
     // 예제 1
     
