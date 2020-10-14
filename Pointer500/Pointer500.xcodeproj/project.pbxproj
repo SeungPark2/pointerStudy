@@ -45,6 +45,7 @@
 		01874DBD251EB51F001B5BC2 /* ExerciseProblem9_20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ExerciseProblem9_20.c; sourceTree = "<group>"; };
 		01874DBF2520A70B001B5BC2 /* ExerciseProblem21_29.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ExerciseProblem21_29.c; sourceTree = "<group>"; };
 		01A20A842535C3B800C63D41 /* Problem21_EP9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem21_EP9.c; sourceTree = "<group>"; };
+		01A20B052537287000C63D41 /* EP10_20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EP10_20.c; sourceTree = "<group>"; };
 		01BBAC2A253488EA00AA2735 /* Problem11_20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem11_20.c; sourceTree = "<group>"; };
 		01D0FF56251CAB5B001485EF /* basic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = basic.c; sourceTree = "<group>"; };
 		01D0FF60251CAF60001485EF /* Problem_24-30.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Problem_24-30.c"; sourceTree = "<group>"; };
@@ -146,6 +147,7 @@
 				0184DBD0253296A300C677BD /* Problem1_10.c */,
 				01BBAC2A253488EA00AA2735 /* Problem11_20.c */,
 				01A20A842535C3B800C63D41 /* Problem21_EP9.c */,
+				01A20B052537287000C63D41 /* EP10_20.c */,
 			);
 			path = Chapter5;
 			sourceTree = "<group>";
