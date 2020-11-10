@@ -37,10 +37,13 @@
 #include "Chapter5/EP10_20.c"
 
 #include "Chapter6/Problem1_9.c"
+#include "Chapter6/Problem10_.c"
+
+#include "Chapter7/Problem1_7.c"
 
 int main(int argc, const char * argv[]) {
     
-    Problem1_9();
+    Problem1_7();
 
     return 0;
 }
