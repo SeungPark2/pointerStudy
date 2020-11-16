@@ -40,10 +40,17 @@
 #include "Chapter6/Problem10_.c"
 
 #include "Chapter7/Problem1_7.c"
+#include "Chapter7/Problem8_9.c"
+
+#include "Chapter11/Problem1_14.c"
+#include "Chapter11/EP1_13.c"
+
+#include "Chapter12/Problem1_.c"
+
 
 int main(int argc, const char * argv[]) {
     
-    Problem1_7();
+    Problem1_();
 
     return 0;
 }
