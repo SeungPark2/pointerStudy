@@ -45,12 +45,12 @@
 #include "Chapter11/Problem1_14.c"
 #include "Chapter11/EP1_13.c"
 
-#include "Chapter12/Problem1_.c"
-
+#include "Chapter12/Problem1_13.c"
+#include "Chapter12/EP1_.c"
 
 int main(int argc, const char * argv[]) {
     
-    Problem1_();
+    EP1_();
 
     return 0;
 }

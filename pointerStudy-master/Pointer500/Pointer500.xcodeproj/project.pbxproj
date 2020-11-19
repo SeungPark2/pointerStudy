@@ -47,6 +47,7 @@
 		019D1DD2253F0BB200C21FAF /* Problem1_9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem1_9.c; sourceTree = "<group>"; };
 		019D89BC2560BB6400412749 /* Problem1_14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem1_14.c; sourceTree = "<group>"; };
 		019D89C125629B9F00412749 /* EP1_13.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EP1_13.c; sourceTree = "<group>"; };
+		019D89C72566A67500412749 /* EP1_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EP1_.c; sourceTree = "<group>"; };
 		01A20A842535C3B800C63D41 /* Problem21_EP9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem21_EP9.c; sourceTree = "<group>"; };
 		01A20B052537287000C63D41 /* EP10_20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EP10_20.c; sourceTree = "<group>"; };
 		01BBAC2A253488EA00AA2735 /* Problem11_20.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem11_20.c; sourceTree = "<group>"; };
@@ -55,7 +56,7 @@
 		01D44713255AB65A00505AF0 /* Problem10_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem10_.c; sourceTree = "<group>"; };
 		01D44718255ABB7200505AF0 /* Problem1_7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem1_7.c; sourceTree = "<group>"; };
 		01D4471D255D4CCD00505AF0 /* Problem8_9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem8_9.c; sourceTree = "<group>"; };
-		01D44723255D50C700505AF0 /* Problem1_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem1_.c; sourceTree = "<group>"; };
+		01D44723255D50C700505AF0 /* Problem1_13.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Problem1_13.c; sourceTree = "<group>"; };
 		01ED9B1E251B6D31007852DA /* File.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = File.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +194,8 @@
 		01D44721255D50AC00505AF0 /* Chapter12 */ = {
 			isa = PBXGroup;
 			children = (
-				01D44723255D50C700505AF0 /* Problem1_.c */,
+				01D44723255D50C700505AF0 /* Problem1_13.c */,
+				019D89C72566A67500412749 /* EP1_.c */,
 			);
 			path = Chapter12;
 			sourceTree = "<group>";
